@@ -1,0 +1,70 @@
+.content
+{
+    width: 80%;
+    height: 75vh;
+    
+    
+
+}
+.box
+{
+    position: fixed;
+    left: -50px;
+    top: 200px;
+    width: 50px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    transition: 1s  all;
+    
+    
+}
+.box ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 3px;
+}
+.box .red,.box .green,.box .blue,.box .move
+{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    margin: 2px 0px;
+}
+ul li
+{
+    list-style: none;
+    width: 100%;
+    
+}
+.red
+{
+    background-color:#ff6666;
+}
+.green
+{
+    background-color: #00cc00
+    ;
+}
+.blue
+{
+    background-color: #1a1aff
+    ;
+}
+.move
+{
+    background-color: #7300e6
+    ;
+}
+.spiner
+{
+    padding :10px;
+    background-color: gray;
+    top: 200px;
+    transition: 1s  all;
+}
